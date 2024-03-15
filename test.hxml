@@ -1,0 +1,18 @@
+--class-path example/src
+--main Main
+
+--library hive
+--library hldx
+--library hlopenal
+
+--define heaps_enable_hl_mp3
+--define windowSize=1280x720
+--define resourcesPath=example/res
+
+--define hive_physics_testing
+
+--hl example/test.hl
+--cmd hl example/test.hl
+
+# --hl example/bin/test.c
+# --define hlgen.makefile=vs2019
